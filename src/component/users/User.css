@@ -1,0 +1,73 @@
+.user {
+ 
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 0 20px #202020;
+
+
+}
+.user h1 {
+  padding: 20px 10px;
+  color: #fff;
+  background: #000428; 
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); 
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); 
+}
+.add-employee {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  right: 39px;
+  top: 45px;
+  text-decoration: none;
+}
+
+.add-employee:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+table {
+  text-align: center;
+  border: 1px solid #202020;
+}
+table thead tr th {
+  width: 400px;
+  padding: 15px;
+  border-bottom: 1px solid rgb(155, 150, 150);
+}
+table tbody tr td {
+  width: 400px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(155, 150, 150);
+}
+
+.edit{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    margin-inline: 5px;
+}
